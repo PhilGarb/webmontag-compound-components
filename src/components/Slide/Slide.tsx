@@ -1,3 +1,4 @@
+import { ArrowRight } from "react-feather";
 import classes from "./slide.module.css";
 
 type Children = { children: React.ReactNode; style?: React.CSSProperties };
@@ -58,8 +59,11 @@ type LinkProps = React.LinkHTMLAttributes<HTMLAnchorElement>;
 
 export function Link({ children, ...props }: LinkProps) {
   return (
-    <a className={classes.link} {...props}>
-      {children}
-    </a>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <a className={classes.link} {...props}>
+        {children}
+      </a>
+      <ArrowRight style={{ marginBottom: "-2px" }} />
+    </div>
   );
 }

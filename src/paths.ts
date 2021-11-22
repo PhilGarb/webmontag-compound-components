@@ -1,5 +1,6 @@
 export const paths = {
-  "/": "Einführung",
+  "/": "Vorstellung",
+  "/einfuehrung": "Einführung",
   "/anforderungen_1": "Anfängliche Anforderungen",
   "/html-accordion": "HTML Accordion",
   "/anforderungen_2": "Neue Anforderungen",

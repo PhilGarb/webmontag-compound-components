@@ -13,13 +13,15 @@ import { Result } from "./sections/Result";
 import { Anforderungen1 } from "./sections/Anforderungen1";
 import { Anforderungen2 } from "./sections/Anforderungen2";
 import { Anforderungen3 } from "./sections/Anforderungen3";
+import { Intro } from "./sections/Intro";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Outline />} />
+          <Route index element={<Intro />} />
+          <Route path="einfuehrung" element={<Outline />} />
           <Route path="html-accordion" element={<HTMLAccordionSlide />} />
           <Route
             path="erstes-react-accordion"

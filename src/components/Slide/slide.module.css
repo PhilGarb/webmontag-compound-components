@@ -43,5 +43,10 @@
 }
 
 .link {
-  color: var(--purple);
+  text-decoration: none;
+  color: blue;
+}
+
+.link:visited {
+  color: blue;
 }
