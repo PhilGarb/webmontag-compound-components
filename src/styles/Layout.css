@@ -1,0 +1,57 @@
+@import "./menu.css";
+
+/* Layouts */
+
+.layout {
+  --purple: #7b4397;
+  background: linear-gradient(to right, #dc2430, var(--purple));
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Components */
+
+.title {
+  background-color: white;
+  padding: 20px 40px;
+  font-size: 1.5em;
+}
+
+.subheading {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
+.small-heading {
+  font-weight: 600;
+  color: black;
+}
+
+/* Utilities */
+
+.right-radius {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.shadow-right {
+  box-shadow: 2px 2px 0px 2px black;
+}
+
+.shadow-left {
+  box-shadow: -2px 2px 0px 2px black;
+}

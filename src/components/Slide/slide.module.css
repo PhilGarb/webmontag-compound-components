@@ -1,0 +1,48 @@
+.slide {
+  width: 800px;
+  border-radius: 5px;
+  padding: 40px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 800px;
+}
+
+.title {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+
+.heading {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.large_text {
+  font-size: 1.5em;
+  margin-block: 0.5em;
+}
+
+.bullet_list {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.bullet_list li {
+  padding-block: 15px;
+}
+
+.bullet_list > li span {
+  font-size: 0.9em;
+  color: rgb(66, 65, 65);
+}
+
+.text {
+  font-size: 1.4em;
+}
+
+.link {
+  color: var(--purple);
+}

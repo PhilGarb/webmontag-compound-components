@@ -1,0 +1,8 @@
+details {
+  padding-block: 20px;
+}
+
+summary {
+  padding-block: 10px;
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}

@@ -1,0 +1,19 @@
+.menu {
+  background-color: white;
+  padding: 40px;
+  max-width: max-content;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 20px;
+  border-radius: 5px;
+  width: calc(100% - 40px);
+}
+
+a.active {
+  color: white;
+  background: linear-gradient(to right, #dc2430, var(--purple));
+}
