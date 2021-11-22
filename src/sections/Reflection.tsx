@@ -16,27 +16,20 @@ export function Reflection() {
           umsetzen.
         </li>
         <li>
-          Wir haben allerdings etwas verloren.
-          <br />
-          <span>
-            Indem wir die Abschnitte des Akkordions in die Komponente
-            abstrahiert haben, ist es nun schwieriger mit diesen Komponenten zu
-            interagieren. Das war in der HTML Variante besser gelöst.
-          </span>
+          Indem wir die Abschnitte des Accordions in eine Componente abstrahiert
+          haben, ist es nun schwieriger mit diesen zu interagieren. Das war in
+          der HTML Variante besser gelöst.
         </li>
         <li>
-          Ein Beispiel dafür ist die itemClassName prop des Akkordions.
-          <br />
-          <span>
-            Obwohl diese für das Akkordion irrelevant ist müssen wir sie über
-            das Akkordion an die Abschnitte weitergeben.
-          </span>
+          Ein Beispiel dafür ist die itemClassName prop des Akkordions. Obwohl
+          diese für das Accordion irrelevant ist müssen wir sie über diese an
+          die Abschnitte weitergeben.
         </li>
       </List>
       <Heading>Neues Ziel</Heading>
       <LargeText>
-        Wir wollen stattdessen erreichen die aktive Kontrolle des Akkordions mit
-        dem Nesting der Komponenten wie bei der HTML Implementation zu
+        Wir wollen stattdessen erreichen, die aktive Kontrolle des Accordion mit
+        dem Nesting der Components, wie bei der HTML Implementation, zu
         kombinieren.
       </LargeText>
     </Slide>

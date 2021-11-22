@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: 0;
   margin-bottom: 0.5em;
   text-decoration: underline;
@@ -34,9 +34,8 @@
   padding-block: 15px;
 }
 
-.bullet_list > li span {
-  font-size: 0.9em;
-  color: rgb(66, 65, 65);
+.bullet_list > li i {
+  font-size: 0.8em;
 }
 
 .text {

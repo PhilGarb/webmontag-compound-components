@@ -7,18 +7,6 @@ export function FirstReactAccordionSlide() {
     <Slide style={{ height: "100%" }}>
       <FirstReactAccordion />
       <Notes>
-        <Heading>Anforderungen</Heading>
-        <List>
-          <li>Einzelne Abschnitte des Akkordions sind sehr lang.</li>
-          <li>
-            Damit der Nutzer nicht von so viel Text überwältigt wird soll immer
-            nur ein Abschnitt gleichzeitig geöffnet sein.
-          </li>
-          <li>
-            Klickt der Nutzer auf einen neuen Abschnitt dann sollen sich alle
-            anderen schließen.
-          </li>
-        </List>
         <Heading>Umsetzung</Heading>
         <List>
           <li>

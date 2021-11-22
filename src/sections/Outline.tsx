@@ -11,8 +11,8 @@ export function Outline() {
     <Slide>
       <Title>Vorgehen</Title>
       <LargeText>
-        Wir simulieren wachsende Anforderungen an ein Akkordion. Am Ende steht
-        eine wiederverwendbare Komponente.
+        Wir simulieren wachsende Anforderungen an ein Accordion. Am Ende steht
+        ein wiederverwendbares Component.
       </LargeText>
       <Heading style={{ marginTop: "50px" }}>Ziele / Anforderungen</Heading>
       <List>

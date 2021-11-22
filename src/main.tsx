@@ -10,6 +10,9 @@ import { FirstReactAccordionSlide } from "./sections/FirstReactAccordion";
 import { Reflection } from "./sections/Reflection";
 import { CompoundAccordionSlide } from "./sections/CompoundAccordion";
 import { Result } from "./sections/Result";
+import { Anforderungen1 } from "./sections/Anforderungen1";
+import { Anforderungen2 } from "./sections/Anforderungen2";
+import { Anforderungen3 } from "./sections/Anforderungen3";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +31,9 @@ ReactDOM.render(
             element={<CompoundAccordionSlide />}
           />
           <Route path="ergebnis" element={<Result />} />
+          <Route path="anforderungen_1" element={<Anforderungen1 />} />
+          <Route path="anforderungen_2" element={<Anforderungen2 />} />
+          <Route path="anforderungen_3" element={<Anforderungen3 />} />
         </Route>
       </Routes>
     </BrowserRouter>

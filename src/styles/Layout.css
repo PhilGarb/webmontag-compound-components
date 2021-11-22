@@ -1,7 +1,7 @@
 @import "./menu.css";
+@import "./accordion.css";
 
 /* Layouts */
-
 .layout {
   --purple: #7b4397;
   background: linear-gradient(to right, #dc2430, var(--purple));
